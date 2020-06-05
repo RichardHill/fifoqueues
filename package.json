@@ -1,0 +1,28 @@
+{
+  "name": "severless-queues",
+  "version": "1.0.0",
+  "description": "A serverless solution for creating a Serverless Queue",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "queues"
+  ],
+  "author": "R.M.Hill",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.685.0",
+    "serverless-apigw-sqs-plugin": "^1.0.5",
+    "serverless-iam-roles-per-function": "^2.0.2"
+  }
+}
+
+
+
+
+
